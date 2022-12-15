@@ -7,8 +7,8 @@ function App() {
   
   return (
     <div>
-     <Heading title={'Hello'}/>
-     <Section title={'Title'}>Subtitle</Section>
+     <Heading title={'TypeScript Website'}/>
+     <Section title={'Made with TypeScript and React'}>Just for practice</Section>
      <Counter></Counter>
      <List items={['listitem1', 'listitem2', 'listitem3','listitem4']} render={(item:string)=><span className="gold">{item}</span>}></List>
     </div>
